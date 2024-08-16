@@ -17,22 +17,22 @@ body {
 }
 
 .page__wrapper {
+    width: 35%;
+    margin: 0 auto;
     min-height: 100%;
 }
 
 .main__header {
     color: var(--black);
-    text-align: center;
 }
 
 .main__header__title {
+    text-align: center;
     margin-top: 0;
 }
 
 .main__page {
-    width: 30%;
     color: var(--black);
-    margin: 0  auto;
     margin-bottom: 64px;
 }
 
