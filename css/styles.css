@@ -11,6 +11,15 @@ body {
     margin: 0;
 }
 
+html,
+body {
+    height: 100%;
+}
+
+.page__wrapper {
+    min-height: 100%;
+}
+
 .main__header {
     color: var(--black);
     text-align: center;
@@ -24,6 +33,7 @@ body {
     width: 30%;
     color: var(--black);
     margin: 0  auto;
+    margin-bottom: 64px;
 }
 
 .main__footer {
@@ -35,6 +45,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: -64px;
 }
 
 .main__footer__content {
