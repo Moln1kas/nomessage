@@ -48,6 +48,10 @@ body {
     margin-top: -64px;
 }
 
+.section {
+    text-align: justify;
+}
+
 .main__footer__content {
     margin: 0 0 6px 0;
 }
@@ -71,4 +75,14 @@ body {
 
 .messages__example::before {
     content: "— ";
+}
+
+@media screen and (max-width: 980px) {
+    .page__wrapper {
+        width: 80%;
+    }
+
+    .main__footer__content {
+        text-align: justify;
+    }
 }
